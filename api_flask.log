@@ -1,0 +1,818 @@
+2025-07-19 11:56:26,441 - INFO - Modèle et features chargés avec succès
+2025-07-19 11:56:26,442 - INFO - Début de la mise à jour du modèle...
+2025-07-19 11:56:26,442 - INFO - Thread de mise à jour démarré
+2025-07-19 11:56:26,443 - INFO - Démarrage de l'API Flask...
+2025-07-19 11:56:26,451 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-19 11:56:26,451 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 11:56:26,493 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 11:56:26,496 - WARNING - 19 dates invalides trouvées
+2025-07-19 11:56:26,497 - WARNING - Aucune donnée valide après traitement
+2025-07-19 11:56:50,144 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.5}
+2025-07-19 11:56:50,170 - INFO - Résultat de la prédiction: {'techniciens': [7, 6, 4], 'probabilites': [0.39072192421974855, 0.3394832339521452, 0.19957653509807943], 'status': 'success'}
+2025-07-19 11:56:50,171 - INFO - 127.0.0.1 - - [19/Jul/2025 11:56:50] "POST /predict HTTP/1.1" 200 -
+2025-07-19 11:59:42,135 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'CLIMATISATION', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.5}
+2025-07-19 11:59:42,148 - INFO - Résultat de la prédiction: {'techniciens': [4, 3, 7], 'probabilites': [0.5853461371236431, 0.4112678501561642, 0.001980516601040483], 'status': 'success'}
+2025-07-19 11:59:42,149 - INFO - 127.0.0.1 - - [19/Jul/2025 11:59:42] "POST /predict HTTP/1.1" 200 -
+2025-07-19 12:00:10,802 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.5}
+2025-07-19 12:00:10,816 - INFO - Résultat de la prédiction: {'techniciens': [7, 6, 4], 'probabilites': [0.39072192421974855, 0.3394832339521452, 0.19957653509807943], 'status': 'success'}
+2025-07-19 12:00:10,816 - INFO - 127.0.0.1 - - [19/Jul/2025 12:00:10] "POST /predict HTTP/1.1" 200 -
+2025-07-19 12:00:44,601 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'CLIMATISATION', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.5}
+2025-07-19 12:00:44,612 - INFO - Résultat de la prédiction: {'techniciens': [4, 3, 7], 'probabilites': [0.5853461371236431, 0.4112678501561642, 0.001980516601040483], 'status': 'success'}
+2025-07-19 12:00:44,613 - INFO - 127.0.0.1 - - [19/Jul/2025 12:00:44] "POST /predict HTTP/1.1" 200 -
+2025-07-19 12:01:26,499 - INFO - Début de la mise à jour du modèle...
+2025-07-19 12:01:26,567 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 12:01:26,568 - WARNING - 19 dates invalides trouvées
+2025-07-19 12:01:26,569 - WARNING - Aucune donnée valide après traitement
+2025-07-19 12:02:29,088 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'CLIMATISATION', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.5}
+2025-07-19 12:02:29,088 - INFO - Résultat de la prédiction: {'techniciens': [4, 3, 7], 'probabilites': [0.5853461371236431, 0.4112678501561642, 0.001980516601040483], 'status': 'success'}
+2025-07-19 12:02:29,088 - INFO - 127.0.0.1 - - [19/Jul/2025 12:02:29] "POST /predict HTTP/1.1" 200 -
+2025-07-19 12:06:26,570 - INFO - Début de la mise à jour du modèle...
+2025-07-19 12:06:26,616 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 12:06:26,618 - WARNING - 19 dates invalides trouvées
+2025-07-19 12:06:26,618 - WARNING - Aucune donnée valide après traitement
+2025-07-19 12:11:26,620 - INFO - Début de la mise à jour du modèle...
+2025-07-19 12:11:26,677 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 12:11:26,679 - WARNING - 19 dates invalides trouvées
+2025-07-19 12:11:26,680 - WARNING - Aucune donnée valide après traitement
+2025-07-19 12:16:26,681 - INFO - Début de la mise à jour du modèle...
+2025-07-19 12:16:26,737 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 12:16:26,739 - WARNING - 19 dates invalides trouvées
+2025-07-19 12:16:26,740 - WARNING - Aucune donnée valide après traitement
+2025-07-19 12:24:39,514 - INFO - Modèle et features chargés avec succès
+2025-07-19 12:24:39,516 - INFO - Début de la mise à jour du modèle...
+2025-07-19 12:24:39,516 - INFO - Thread de mise à jour démarré
+2025-07-19 12:24:39,516 - INFO - Démarrage de l'API Flask...
+2025-07-19 12:24:39,527 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-19 12:24:39,527 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 12:24:39,559 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 12:24:39,562 - WARNING - 19 dates invalides trouvées
+2025-07-19 12:24:39,563 - WARNING - Aucune donnée valide après traitement
+2025-07-19 12:24:52,041 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'CLIMATISATION', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.5}
+2025-07-19 12:24:52,053 - INFO - Résultat filtré: {'techniciens': [3, 4, 7], 'probabilites': [0.5992, 0.398, 0.0029], 'specialite_demandee': 'CLIMATISATION', 'status': 'success'}
+2025-07-19 12:24:52,055 - INFO - 127.0.0.1 - - [19/Jul/2025 12:24:52] "POST /predict HTTP/1.1" 200 -
+2025-07-19 12:25:10,574 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.5}
+2025-07-19 12:25:10,586 - INFO - Résultat filtré: {'techniciens': [4, 7, 6], 'probabilites': [0.3694, 0.3374, 0.2932], 'specialite_demandee': 'ELECTRICITE', 'status': 'success'}
+2025-07-19 12:25:10,586 - INFO - 127.0.0.1 - - [19/Jul/2025 12:25:10] "POST /predict HTTP/1.1" 200 -
+2025-07-19 12:26:17,100 - INFO - Modèle et features chargés avec succès
+2025-07-19 12:26:17,102 - INFO - Début de la mise à jour du modèle...
+2025-07-19 12:26:17,102 - INFO - Thread de mise à jour démarré
+2025-07-19 12:26:17,103 - INFO - Démarrage de l'API Flask...
+2025-07-19 12:26:17,111 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-19 12:26:17,111 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 12:26:17,179 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 12:26:17,182 - WARNING - 19 dates invalides trouvées
+2025-07-19 12:26:17,183 - WARNING - Aucune donnée valide après traitement
+2025-07-19 12:31:17,183 - INFO - Début de la mise à jour du modèle...
+2025-07-19 12:31:17,219 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 12:31:17,222 - WARNING - 19 dates invalides trouvées
+2025-07-19 12:31:17,222 - WARNING - Aucune donnée valide après traitement
+2025-07-19 12:41:15,247 - INFO - Modèle et features chargés avec succès
+2025-07-19 12:41:15,263 - INFO - Début de la mise à jour du modèle...
+2025-07-19 12:41:15,263 - INFO - Thread de mise à jour démarré
+2025-07-19 12:41:15,263 - INFO - Démarrage de l'API Flask...
+2025-07-19 12:41:15,263 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-19 12:41:15,263 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 12:41:15,427 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 12:41:15,602 - INFO - Modèle mis à jour avec 19 nouvelles interventions
+2025-07-19 12:41:28,625 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.5}
+2025-07-19 12:41:28,639 - INFO - Résultat de la prédiction: {'techniciens': [4, 14, 7], 'probabilites': [0.6136685168940623, 0.11354680020759061, 0.08269269073085422], 'status': 'success'}
+2025-07-19 12:41:28,640 - INFO - 127.0.0.1 - - [19/Jul/2025 12:41:28] "POST /predict HTTP/1.1" 200 -
+2025-07-19 12:46:15,618 - INFO - Début de la mise à jour du modèle...
+2025-07-19 12:46:15,686 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 12:46:15,863 - INFO - Modèle mis à jour avec 19 nouvelles interventions
+2025-07-19 12:51:15,864 - INFO - Début de la mise à jour du modèle...
+2025-07-19 12:51:15,908 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 12:51:16,089 - INFO - Modèle mis à jour avec 19 nouvelles interventions
+2025-07-19 12:56:16,089 - INFO - Début de la mise à jour du modèle...
+2025-07-19 12:56:16,155 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 12:56:16,327 - INFO - Modèle mis à jour avec 19 nouvelles interventions
+2025-07-19 13:01:16,328 - INFO - Début de la mise à jour du modèle...
+2025-07-19 13:01:16,387 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 13:01:16,560 - INFO - Modèle mis à jour avec 19 nouvelles interventions
+2025-07-19 13:06:16,560 - INFO - Début de la mise à jour du modèle...
+2025-07-19 13:06:16,626 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 13:06:16,802 - INFO - Modèle mis à jour avec 19 nouvelles interventions
+2025-07-19 13:11:16,804 - INFO - Début de la mise à jour du modèle...
+2025-07-19 13:11:16,863 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 13:11:17,037 - INFO - Modèle mis à jour avec 19 nouvelles interventions
+2025-07-19 13:16:17,038 - INFO - Début de la mise à jour du modèle...
+2025-07-19 13:16:17,106 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 13:16:17,275 - INFO - Modèle mis à jour avec 19 nouvelles interventions
+2025-07-19 13:21:17,277 - INFO - Début de la mise à jour du modèle...
+2025-07-19 13:21:17,333 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 13:21:17,508 - INFO - Modèle mis à jour avec 19 nouvelles interventions
+2025-07-19 13:26:17,510 - INFO - Début de la mise à jour du modèle...
+2025-07-19 13:26:17,568 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 13:26:17,739 - INFO - Modèle mis à jour avec 19 nouvelles interventions
+2025-07-19 13:31:17,740 - INFO - Début de la mise à jour du modèle...
+2025-07-19 13:31:17,796 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 13:31:17,968 - INFO - Modèle mis à jour avec 19 nouvelles interventions
+2025-07-19 13:36:17,969 - INFO - Début de la mise à jour du modèle...
+2025-07-19 13:36:18,018 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 13:36:18,190 - INFO - Modèle mis à jour avec 19 nouvelles interventions
+2025-07-19 13:41:18,191 - INFO - Début de la mise à jour du modèle...
+2025-07-19 13:41:18,240 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 13:41:18,431 - INFO - Modèle mis à jour avec 19 nouvelles interventions
+2025-07-19 13:46:18,437 - INFO - Début de la mise à jour du modèle...
+2025-07-19 13:46:18,493 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 13:46:18,666 - INFO - Modèle mis à jour avec 19 nouvelles interventions
+2025-07-19 13:48:07,763 - INFO - Modèle et features chargés avec succès
+2025-07-19 13:48:07,765 - INFO - Début de la mise à jour du modèle...
+2025-07-19 13:48:07,765 - INFO - Thread de mise à jour démarré
+2025-07-19 13:48:07,766 - INFO - Démarrage de l'API Flask...
+2025-07-19 13:48:07,776 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-19 13:48:07,776 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 13:48:11,858 - ERROR - Erreur de connexion: HTTPConnectionPool(host='localhost', port=8087): Max retries exceeded with url: /prediction/donnees (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019754C13D10>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-07-19 13:50:47,790 - INFO - Modèle et features chargés avec succès
+2025-07-19 13:50:47,806 - INFO - Début de la mise à jour du modèle...
+2025-07-19 13:50:47,806 - INFO - Thread de mise à jour démarré
+2025-07-19 13:50:47,806 - INFO - Démarrage de l'API Flask...
+2025-07-19 13:50:47,817 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-19 13:50:47,817 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 13:50:47,978 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 13:50:47,978 - WARNING - 19 dates invalides trouvées
+2025-07-19 13:50:47,978 - WARNING - Aucune donnée valide après traitement
+2025-07-19 13:55:47,990 - INFO - Début de la mise à jour du modèle...
+2025-07-19 13:55:48,051 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 13:55:48,053 - WARNING - 19 dates invalides trouvées
+2025-07-19 13:55:48,054 - WARNING - Aucune donnée valide après traitement
+2025-07-19 13:58:34,599 - INFO - Modèle et features chargés avec succès
+2025-07-19 13:58:34,601 - INFO - Début de la mise à jour du modèle...
+2025-07-19 13:58:34,601 - INFO - Thread de mise à jour démarré
+2025-07-19 13:58:34,601 - INFO - Démarrage de l'API Flask...
+2025-07-19 13:58:34,609 - ERROR - Erreur HTTP 403: 
+2025-07-19 13:58:34,611 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-19 13:58:34,612 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 15:58:10,066 - INFO - Modèle et features chargés avec succès
+2025-07-19 15:58:10,068 - INFO - Début de la mise à jour du modèle...
+2025-07-19 15:58:10,068 - INFO - Thread de mise à jour démarré
+2025-07-19 15:58:10,069 - INFO - Démarrage de l'API Flask...
+2025-07-19 15:58:10,079 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-19 15:58:10,079 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 15:58:10,144 - ERROR - Erreur HTTP 403: 
+2025-07-19 15:59:11,680 - INFO - 127.0.0.1 - - [19/Jul/2025 15:59:11] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-07-19 16:00:17,838 - INFO - Modèle et features chargés avec succès
+2025-07-19 16:00:17,840 - INFO - Début de la mise à jour du modèle...
+2025-07-19 16:00:17,840 - INFO - Thread de mise à jour démarré
+2025-07-19 16:00:17,841 - INFO - Démarrage de l'API Flask...
+2025-07-19 16:00:17,848 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-19 16:00:17,848 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 16:00:18,014 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 16:00:18,017 - WARNING - 19 dates invalides trouvées
+2025-07-19 16:00:18,018 - WARNING - Aucune donnée valide après traitement
+2025-07-19 16:00:31,971 - INFO - 127.0.0.1 - - [19/Jul/2025 16:00:31] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-07-19 16:01:04,893 - INFO - Modèle et features chargés avec succès
+2025-07-19 16:01:04,894 - INFO - Début de la mise à jour du modèle...
+2025-07-19 16:01:04,894 - INFO - Thread de mise à jour démarré
+2025-07-19 16:01:04,894 - INFO - Démarrage de l'API Flask...
+2025-07-19 16:01:04,903 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-19 16:01:04,903 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 16:01:04,966 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 16:01:04,968 - WARNING - 19 dates invalides trouvées
+2025-07-19 16:01:04,969 - WARNING - Aucune donnée valide après traitement
+2025-07-19 16:01:41,910 - INFO - 127.0.0.1 - - [19/Jul/2025 16:01:41] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-07-19 16:03:17,474 - INFO - Modèle et features chargés avec succès
+2025-07-19 16:03:17,475 - INFO - Début de la mise à jour du modèle...
+2025-07-19 16:03:17,475 - INFO - Thread de mise à jour démarré
+2025-07-19 16:03:17,475 - INFO - Démarrage de l'API Flask...
+2025-07-19 16:03:17,488 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-19 16:03:17,488 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 16:03:17,666 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 16:03:17,670 - WARNING - 19 dates invalides trouvées
+2025-07-19 16:03:17,670 - WARNING - Aucune donnée valide après traitement
+2025-07-19 16:03:59,257 - INFO - 127.0.0.1 - - [19/Jul/2025 16:03:59] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-07-19 16:04:42,621 - INFO - Modèle et features chargés avec succès
+2025-07-19 16:04:42,623 - INFO - Début de la mise à jour du modèle...
+2025-07-19 16:04:42,623 - INFO - Thread de mise à jour démarré
+2025-07-19 16:04:42,624 - INFO - Démarrage de l'API Flask...
+2025-07-19 16:04:42,631 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-19 16:04:42,632 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 16:04:42,707 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 16:04:42,711 - WARNING - 19 dates invalides trouvées
+2025-07-19 16:04:42,712 - WARNING - Aucune donnée valide après traitement
+2025-07-19 16:04:54,896 - INFO - 127.0.0.1 - - [19/Jul/2025 16:04:54] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-07-19 16:05:48,947 - INFO - 127.0.0.1 - - [19/Jul/2025 16:05:48] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-07-19 16:07:56,046 - INFO - Modèle et features chargés avec succès
+2025-07-19 16:07:56,047 - INFO - Début de la mise à jour du modèle...
+2025-07-19 16:07:56,047 - INFO - Thread de mise à jour démarré
+2025-07-19 16:07:56,048 - INFO - Démarrage de l'API Flask...
+2025-07-19 16:07:56,058 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-19 16:07:56,059 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 16:07:56,094 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 16:07:56,097 - WARNING - 19 dates invalides trouvées
+2025-07-19 16:07:56,098 - WARNING - Aucune donnée valide après traitement
+2025-07-19 16:08:09,619 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.5}
+2025-07-19 16:08:09,632 - INFO - Résultat de la prédiction: {'techniciens': [4, 14, 7], 'probabilites': [0.6136685168940623, 0.11354680020759061, 0.08269269073085422], 'status': 'success'}
+2025-07-19 16:08:09,633 - INFO - 127.0.0.1 - - [19/Jul/2025 16:08:09] "POST /predict HTTP/1.1" 200 -
+2025-07-19 16:12:56,099 - INFO - Début de la mise à jour du modèle...
+2025-07-19 16:12:56,164 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 16:12:56,165 - WARNING - 19 dates invalides trouvées
+2025-07-19 16:12:56,166 - WARNING - Aucune donnée valide après traitement
+2025-07-19 16:33:49,858 - INFO - Modèle et features chargés avec succès
+2025-07-19 16:33:49,858 - INFO - Début de la mise à jour du modèle...
+2025-07-19 16:33:49,858 - INFO - Thread de mise à jour démarré
+2025-07-19 16:33:49,858 - INFO - Démarrage de l'API Flask...
+2025-07-19 16:33:49,872 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-19 16:33:49,872 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 16:33:50,039 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 16:33:50,039 - WARNING - 19 dates invalides trouvées
+2025-07-19 16:33:50,043 - WARNING - Aucune donnée valide après traitement
+2025-07-19 16:34:01,514 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.5}
+2025-07-19 16:34:01,527 - INFO - Résultat de la prédiction: {'techniciens': [4, 14, 3], 'probabilites': [0.8351120666460508, 0.07714481294421278, 0.02107915243825961], 'status': 'success'}
+2025-07-19 16:34:01,528 - INFO - 127.0.0.1 - - [19/Jul/2025 16:34:01] "POST /predict HTTP/1.1" 200 -
+2025-07-19 16:36:35,372 - INFO - Modèle et features chargés avec succès
+2025-07-19 16:36:35,374 - INFO - Début de la mise à jour du modèle...
+2025-07-19 16:36:35,374 - INFO - Thread de mise à jour démarré
+2025-07-19 16:36:35,375 - INFO - Démarrage de l'API Flask...
+2025-07-19 16:36:35,386 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-19 16:36:35,386 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 16:36:35,451 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 16:36:35,453 - WARNING - 19 dates invalides filtrées
+2025-07-19 16:36:35,454 - ERROR - Aucune donnée valide après filtrage
+2025-07-19 16:36:35,455 - WARNING - Aucune donnée valide après traitement
+2025-07-19 16:36:50,089 - INFO - Requête reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.5}
+2025-07-19 16:36:50,093 - INFO - Résultat final: {'techniciens': [4, 14, 21], 'probabilites': [0.8991, 0.0831, 0.0179], 'specialite_demandee': 'ELECTRICITE', 'status': 'success'}
+2025-07-19 16:36:50,093 - INFO - 127.0.0.1 - - [19/Jul/2025 16:36:50] "POST /predict HTTP/1.1" 200 -
+2025-07-19 16:39:05,065 - INFO - Requête reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'CLIMATISATION', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3}
+2025-07-19 16:39:05,077 - INFO - Résultat final: {'techniciens': [7, 3, 1], 'probabilites': [0.4644, 0.4537, 0.0819], 'specialite_demandee': 'CLIMATISATION', 'status': 'success'}
+2025-07-19 16:39:05,078 - INFO - 127.0.0.1 - - [19/Jul/2025 16:39:05] "POST /predict HTTP/1.1" 200 -
+2025-07-19 16:39:32,517 - INFO - Requête reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'ENVIRONNEMENT', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3}
+2025-07-19 16:39:32,530 - INFO - Résultat final: {'techniciens': [6, 4, 5], 'probabilites': [0.4905, 0.2852, 0.2244], 'specialite_demandee': 'ENVIRONNEMENT', 'status': 'success'}
+2025-07-19 16:39:32,532 - INFO - 127.0.0.1 - - [19/Jul/2025 16:39:32] "POST /predict HTTP/1.1" 200 -
+2025-07-19 16:41:35,456 - INFO - Début de la mise à jour du modèle...
+2025-07-19 16:41:35,523 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 16:41:35,525 - WARNING - 19 dates invalides filtrées
+2025-07-19 16:41:35,525 - ERROR - Aucune donnée valide après filtrage
+2025-07-19 16:41:35,526 - WARNING - Aucune donnée valide après traitement
+2025-07-19 16:46:35,527 - INFO - Début de la mise à jour du modèle...
+2025-07-19 16:46:35,590 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 16:46:35,592 - WARNING - 19 dates invalides filtrées
+2025-07-19 16:46:35,593 - ERROR - Aucune donnée valide après filtrage
+2025-07-19 16:46:35,593 - WARNING - Aucune donnée valide après traitement
+2025-07-19 16:51:35,594 - INFO - Début de la mise à jour du modèle...
+2025-07-19 16:51:35,653 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 16:51:35,655 - WARNING - 19 dates invalides filtrées
+2025-07-19 16:51:35,655 - ERROR - Aucune donnée valide après filtrage
+2025-07-19 16:51:35,656 - WARNING - Aucune donnée valide après traitement
+2025-07-19 16:56:35,657 - INFO - Début de la mise à jour du modèle...
+2025-07-19 16:56:35,710 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 16:56:35,711 - WARNING - 19 dates invalides filtrées
+2025-07-19 16:56:35,712 - ERROR - Aucune donnée valide après filtrage
+2025-07-19 16:56:35,712 - WARNING - Aucune donnée valide après traitement
+2025-07-19 17:01:35,714 - INFO - Début de la mise à jour du modèle...
+2025-07-19 17:01:35,773 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 17:01:35,775 - WARNING - 19 dates invalides filtrées
+2025-07-19 17:01:35,775 - ERROR - Aucune donnée valide après filtrage
+2025-07-19 17:01:35,775 - WARNING - Aucune donnée valide après traitement
+2025-07-19 17:06:35,776 - INFO - Début de la mise à jour du modèle...
+2025-07-19 17:06:35,834 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 17:06:35,836 - WARNING - 19 dates invalides filtrées
+2025-07-19 17:06:35,836 - ERROR - Aucune donnée valide après filtrage
+2025-07-19 17:06:35,837 - WARNING - Aucune donnée valide après traitement
+2025-07-19 17:11:35,838 - INFO - Début de la mise à jour du modèle...
+2025-07-19 17:11:35,889 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 17:11:35,890 - WARNING - 19 dates invalides filtrées
+2025-07-19 17:11:35,891 - ERROR - Aucune donnée valide après filtrage
+2025-07-19 17:11:35,891 - WARNING - Aucune donnée valide après traitement
+2025-07-19 17:16:35,892 - INFO - Début de la mise à jour du modèle...
+2025-07-19 17:16:35,940 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 17:16:35,942 - WARNING - 19 dates invalides filtrées
+2025-07-19 17:16:35,942 - ERROR - Aucune donnée valide après filtrage
+2025-07-19 17:16:35,943 - WARNING - Aucune donnée valide après traitement
+2025-07-19 17:21:35,943 - INFO - Début de la mise à jour du modèle...
+2025-07-19 17:21:35,988 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 17:21:35,990 - WARNING - 19 dates invalides filtrées
+2025-07-19 17:21:35,991 - ERROR - Aucune donnée valide après filtrage
+2025-07-19 17:21:35,991 - WARNING - Aucune donnée valide après traitement
+2025-07-19 17:26:35,992 - INFO - Début de la mise à jour du modèle...
+2025-07-19 17:26:36,049 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 17:26:36,050 - WARNING - 19 dates invalides filtrées
+2025-07-19 17:26:36,051 - ERROR - Aucune donnée valide après filtrage
+2025-07-19 17:26:36,051 - WARNING - Aucune donnée valide après traitement
+2025-07-19 17:31:36,052 - INFO - Début de la mise à jour du modèle...
+2025-07-19 17:31:36,111 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 17:31:36,112 - WARNING - 19 dates invalides filtrées
+2025-07-19 17:31:36,112 - ERROR - Aucune donnée valide après filtrage
+2025-07-19 17:31:36,112 - WARNING - Aucune donnée valide après traitement
+2025-07-19 17:36:36,114 - INFO - Début de la mise à jour du modèle...
+2025-07-19 17:36:36,174 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 17:36:36,176 - WARNING - 19 dates invalides filtrées
+2025-07-19 17:36:36,176 - ERROR - Aucune donnée valide après filtrage
+2025-07-19 17:36:36,177 - WARNING - Aucune donnée valide après traitement
+2025-07-19 17:40:55,812 - INFO - Modèle et features chargés avec succès
+2025-07-19 17:40:55,813 - INFO - Début de la mise à jour du modèle...
+2025-07-19 17:40:55,813 - INFO - Thread de mise à jour démarré
+2025-07-19 17:40:55,814 - INFO - Démarrage de l'API Flask...
+2025-07-19 17:40:55,824 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-19 17:40:55,825 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 17:40:55,997 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 17:40:56,000 - WARNING - 19 dates invalides filtrées
+2025-07-19 17:40:56,001 - ERROR - Aucune donnée valide après filtrage
+2025-07-19 17:40:56,001 - WARNING - Aucune donnée valide après traitement
+2025-07-19 17:45:56,002 - INFO - Début de la mise à jour du modèle...
+2025-07-19 17:45:56,132 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 17:45:56,135 - WARNING - 19 dates invalides filtrées
+2025-07-19 17:45:56,136 - ERROR - Aucune donnée valide après filtrage
+2025-07-19 17:45:56,136 - WARNING - Aucune donnée valide après traitement
+2025-07-19 17:48:00,082 - INFO - Requête reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'ENVIRONNEMENT', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.0}
+2025-07-19 17:48:00,095 - INFO - Résultat final: {'techniciens': [6, 4, 5], 'probabilites': [0.4905, 0.2852, 0.2244], 'specialite_demandee': 'ENVIRONNEMENT', 'status': 'success'}
+2025-07-19 17:48:00,096 - INFO - 127.0.0.1 - - [19/Jul/2025 17:48:00] "POST /predict HTTP/1.1" 200 -
+2025-07-19 17:48:53,938 - INFO - Requête reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.0}
+2025-07-19 17:48:53,952 - INFO - Résultat final: {'techniciens': [4, 14, 21], 'probabilites': [0.8991, 0.0831, 0.0179], 'specialite_demandee': 'ELECTRICITE', 'status': 'success'}
+2025-07-19 17:48:53,952 - INFO - 127.0.0.1 - - [19/Jul/2025 17:48:53] "POST /predict HTTP/1.1" 200 -
+2025-07-19 17:50:56,137 - INFO - Début de la mise à jour du modèle...
+2025-07-19 17:50:56,235 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 17:50:56,236 - WARNING - 19 dates invalides filtrées
+2025-07-19 17:50:56,237 - ERROR - Aucune donnée valide après filtrage
+2025-07-19 17:50:56,237 - WARNING - Aucune donnée valide après traitement
+2025-07-19 17:53:38,379 - INFO - Modèle et features chargés avec succès
+2025-07-19 17:53:38,380 - INFO - Début de la mise à jour du modèle...
+2025-07-19 17:53:38,380 - INFO - Thread de mise à jour démarré
+2025-07-19 17:53:38,380 - INFO - Démarrage de l'API Flask...
+2025-07-19 17:53:38,389 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-19 17:53:38,389 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 17:53:38,430 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 17:53:38,433 - WARNING - 19 dates invalides trouvées
+2025-07-19 17:53:38,434 - WARNING - Aucune donnée valide après traitement
+2025-07-19 17:53:45,173 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.0}
+2025-07-19 17:53:45,185 - INFO - Résultat de la prédiction: {'techniciens': [4, 14], 'probabilites': [0.8351120666460508, 0.07714481294421278], 'status': 'success'}
+2025-07-19 17:53:45,186 - INFO - 127.0.0.1 - - [19/Jul/2025 17:53:45] "POST /predict HTTP/1.1" 200 -
+2025-07-19 17:56:17,828 - INFO - Modèle et features chargés avec succès
+2025-07-19 17:56:17,829 - INFO - Début de la mise à jour du modèle...
+2025-07-19 17:56:17,829 - INFO - Thread de mise à jour démarré
+2025-07-19 17:56:17,829 - INFO - Démarrage de l'API Flask...
+2025-07-19 17:56:17,837 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-19 17:56:17,838 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 17:56:17,877 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 17:56:17,881 - WARNING - 19 dates invalides trouvées
+2025-07-19 17:56:17,881 - WARNING - Aucune donnée valide après traitement
+2025-07-19 17:56:22,156 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.0}
+2025-07-19 17:56:22,169 - INFO - Résultat de la prédiction: {'techniciens': [4, 14, 3], 'probabilites': [0.8351120666460508, 0.07714481294421278, 0.02107915243825961], 'status': 'success'}
+2025-07-19 17:56:22,170 - INFO - 127.0.0.1 - - [19/Jul/2025 17:56:22] "POST /predict HTTP/1.1" 200 -
+2025-07-19 17:56:48,248 - INFO - Modèle et features chargés avec succès
+2025-07-19 17:56:48,249 - INFO - Début de la mise à jour du modèle...
+2025-07-19 17:56:48,250 - INFO - Thread de mise à jour démarré
+2025-07-19 17:56:48,250 - INFO - Démarrage de l'API Flask...
+2025-07-19 17:56:48,263 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-19 17:56:48,263 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 17:56:48,301 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 17:56:48,304 - WARNING - 19 dates invalides trouvées
+2025-07-19 17:56:48,305 - WARNING - Aucune donnée valide après traitement
+2025-07-19 17:56:51,676 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.0}
+2025-07-19 17:56:51,691 - INFO - Résultat de la prédiction: {'techniciens': [4, 14], 'probabilites': [0.8351120666460508, 0.07714481294421278], 'status': 'success'}
+2025-07-19 17:56:51,693 - INFO - 127.0.0.1 - - [19/Jul/2025 17:56:51] "POST /predict HTTP/1.1" 200 -
+2025-07-19 18:01:48,306 - INFO - Début de la mise à jour du modèle...
+2025-07-19 18:01:48,371 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 18:01:48,373 - WARNING - 19 dates invalides trouvées
+2025-07-19 18:01:48,374 - WARNING - Aucune donnée valide après traitement
+2025-07-19 18:06:48,375 - INFO - Début de la mise à jour du modèle...
+2025-07-19 18:06:48,435 - INFO - Reçu 19 nouvelles interventions
+2025-07-19 18:06:48,437 - WARNING - 19 dates invalides trouvées
+2025-07-19 18:06:48,437 - WARNING - Aucune donnée valide après traitement
+2025-07-20 09:55:32,236 - ERROR - Erreur lors du chargement initial: No module named 'xgboost'
+2025-07-20 09:56:40,791 - INFO - Modèle et features chargés avec succès
+2025-07-20 09:56:40,791 - INFO - Début de la mise à jour du modèle...
+2025-07-20 09:56:40,791 - INFO - Thread de mise à jour démarré
+2025-07-20 09:56:40,791 - INFO - Démarrage de l'API Flask...
+2025-07-20 09:56:40,805 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.169:5000
+2025-07-20 09:56:40,805 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-20 09:56:41,011 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 09:56:41,027 - WARNING - 19 dates invalides trouvées
+2025-07-20 09:56:41,034 - WARNING - Aucune donnée valide après traitement
+2025-07-20 09:58:03,379 - INFO - 127.0.0.1 - - [20/Jul/2025 09:58:03] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-07-20 09:58:18,423 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3}
+2025-07-20 09:58:18,441 - INFO - Résultat de la prédiction: {'techniciens': [2, 9], 'probabilites': [0.7631085515022278, 0.16079698503017426], 'status': 'success'}
+2025-07-20 09:58:18,442 - INFO - 127.0.0.1 - - [20/Jul/2025 09:58:18] "POST /predict HTTP/1.1" 200 -
+2025-07-20 10:06:24,400 - INFO - Modèle et features chargés avec succès
+2025-07-20 10:06:24,400 - INFO - Début de la mise à jour du modèle...
+2025-07-20 10:06:24,400 - INFO - Thread de mise à jour démarré
+2025-07-20 10:06:24,400 - INFO - Démarrage de l'API Flask...
+2025-07-20 10:06:24,412 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.169:5000
+2025-07-20 10:06:24,412 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-20 10:06:24,577 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 10:06:24,582 - WARNING - 19 dates invalides trouvées
+2025-07-20 10:06:24,582 - WARNING - Aucune donnée valide après traitement
+2025-07-20 10:06:59,238 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.0}
+2025-07-20 10:06:59,248 - INFO - Résultat de la prédiction: {'techniciens': [2, 9], 'probabilites': [0.7631085515022278, 0.16079698503017426], 'status': 'success'}
+2025-07-20 10:06:59,249 - INFO - 127.0.0.1 - - [20/Jul/2025 10:06:59] "POST /predict HTTP/1.1" 200 -
+2025-07-20 10:08:20,101 - INFO - 127.0.0.1 - - [20/Jul/2025 10:08:20] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-07-20 10:08:45,721 - INFO - 127.0.0.1 - - [20/Jul/2025 10:08:45] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-07-20 10:09:31,075 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3}
+2025-07-20 10:09:31,090 - INFO - Résultat de la prédiction: {'techniciens': [2, 9], 'probabilites': [0.7631085515022278, 0.16079698503017426], 'status': 'success'}
+2025-07-20 10:09:31,092 - INFO - 127.0.0.1 - - [20/Jul/2025 10:09:31] "POST /predict HTTP/1.1" 200 -
+2025-07-20 10:11:24,584 - INFO - Début de la mise à jour du modèle...
+2025-07-20 10:11:24,652 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 10:11:24,653 - WARNING - 19 dates invalides trouvées
+2025-07-20 10:11:24,655 - WARNING - Aucune donnée valide après traitement
+2025-07-20 10:16:24,657 - INFO - Début de la mise à jour du modèle...
+2025-07-20 10:16:24,730 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 10:16:24,731 - WARNING - 19 dates invalides trouvées
+2025-07-20 10:16:24,731 - WARNING - Aucune donnée valide après traitement
+2025-07-20 10:21:24,733 - INFO - Début de la mise à jour du modèle...
+2025-07-20 10:21:24,785 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 10:21:24,787 - WARNING - 19 dates invalides trouvées
+2025-07-20 10:21:24,788 - WARNING - Aucune donnée valide après traitement
+2025-07-20 10:26:24,790 - INFO - Début de la mise à jour du modèle...
+2025-07-20 10:26:24,842 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 10:26:24,844 - WARNING - 19 dates invalides trouvées
+2025-07-20 10:26:24,844 - WARNING - Aucune donnée valide après traitement
+2025-07-20 10:31:24,846 - INFO - Début de la mise à jour du modèle...
+2025-07-20 10:31:24,904 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 10:31:24,904 - WARNING - 19 dates invalides trouvées
+2025-07-20 10:31:24,904 - WARNING - Aucune donnée valide après traitement
+2025-07-20 10:34:31,269 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-20T10:34', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.0}
+2025-07-20 10:34:31,277 - ERROR - Erreur dans prepare_features: time data '2025-07-20T10:34' does not match format '%Y-%m-%dT%H:%M:%S'
+2025-07-20 10:34:31,277 - ERROR - Erreur de validation: time data '2025-07-20T10:34' does not match format '%Y-%m-%dT%H:%M:%S'
+2025-07-20 10:34:31,277 - INFO - 127.0.0.1 - - [20/Jul/2025 10:34:31] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-07-20 10:36:24,919 - INFO - Début de la mise à jour du modèle...
+2025-07-20 10:36:24,974 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 10:36:24,976 - WARNING - 19 dates invalides trouvées
+2025-07-20 10:36:24,977 - WARNING - Aucune donnée valide après traitement
+2025-07-20 10:38:56,630 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-20T10:38:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.0}
+2025-07-20 10:38:56,641 - INFO - Résultat de la prédiction: {'techniciens': [2, 9], 'probabilites': [0.8085426092147827, 0.13135205209255219], 'status': 'success'}
+2025-07-20 10:38:56,642 - INFO - 127.0.0.1 - - [20/Jul/2025 10:38:56] "POST /predict HTTP/1.1" 200 -
+2025-07-20 10:41:05,107 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-20T10:41:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'PREVENTIVE', 'priorite': 'BASSE', 'dureeEstimee': 3.0}
+2025-07-20 10:41:05,117 - INFO - Résultat de la prédiction: {'techniciens': [9, 6], 'probabilites': [0.6637572646141052, 0.044748954474925995], 'status': 'success'}
+2025-07-20 10:41:05,117 - INFO - 127.0.0.1 - - [20/Jul/2025 10:41:05] "POST /predict HTTP/1.1" 200 -
+2025-07-20 10:41:24,978 - INFO - Début de la mise à jour du modèle...
+2025-07-20 10:41:25,050 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 10:41:25,052 - WARNING - 19 dates invalides trouvées
+2025-07-20 10:41:25,053 - WARNING - Aucune donnée valide après traitement
+2025-07-20 10:46:25,054 - INFO - Début de la mise à jour du modèle...
+2025-07-20 10:46:25,111 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 10:46:25,112 - WARNING - 19 dates invalides trouvées
+2025-07-20 10:46:25,113 - WARNING - Aucune donnée valide après traitement
+2025-07-20 10:51:25,114 - INFO - Début de la mise à jour du modèle...
+2025-07-20 10:51:25,195 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 10:51:25,197 - WARNING - 19 dates invalides trouvées
+2025-07-20 10:51:25,198 - WARNING - Aucune donnée valide après traitement
+2025-07-20 10:56:25,199 - INFO - Début de la mise à jour du modèle...
+2025-07-20 10:56:25,267 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 10:56:25,269 - WARNING - 19 dates invalides trouvées
+2025-07-20 10:56:25,269 - WARNING - Aucune donnée valide après traitement
+2025-07-20 11:00:46,381 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-20T11:00:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'PREVENTIVE', 'priorite': 'BASSE', 'dureeEstimee': 3.0}
+2025-07-20 11:00:46,392 - INFO - Résultat de la prédiction: {'techniciens': [9, 6], 'probabilites': [0.6637572646141052, 0.044748954474925995], 'status': 'success'}
+2025-07-20 11:00:46,393 - INFO - 127.0.0.1 - - [20/Jul/2025 11:00:46] "POST /predict HTTP/1.1" 200 -
+2025-07-20 11:01:25,270 - INFO - Début de la mise à jour du modèle...
+2025-07-20 11:01:25,311 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 11:01:25,312 - WARNING - 19 dates invalides trouvées
+2025-07-20 11:01:25,314 - WARNING - Aucune donnée valide après traitement
+2025-07-20 11:06:25,316 - INFO - Début de la mise à jour du modèle...
+2025-07-20 11:06:25,357 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 11:06:25,359 - WARNING - 19 dates invalides trouvées
+2025-07-20 11:06:25,360 - WARNING - Aucune donnée valide après traitement
+2025-07-20 11:11:25,361 - INFO - Début de la mise à jour du modèle...
+2025-07-20 11:11:25,395 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 11:11:25,397 - WARNING - 19 dates invalides trouvées
+2025-07-20 11:11:25,397 - WARNING - Aucune donnée valide après traitement
+2025-07-20 11:16:25,398 - INFO - Début de la mise à jour du modèle...
+2025-07-20 11:16:25,438 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 11:16:25,439 - WARNING - 19 dates invalides trouvées
+2025-07-20 11:16:25,440 - WARNING - Aucune donnée valide après traitement
+2025-07-20 11:21:25,442 - INFO - Début de la mise à jour du modèle...
+2025-07-20 11:21:25,496 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 11:21:25,498 - WARNING - 19 dates invalides trouvées
+2025-07-20 11:21:25,499 - WARNING - Aucune donnée valide après traitement
+2025-07-20 11:26:25,501 - INFO - Début de la mise à jour du modèle...
+2025-07-20 11:26:25,559 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 11:26:25,561 - WARNING - 19 dates invalides trouvées
+2025-07-20 11:26:25,562 - WARNING - Aucune donnée valide après traitement
+2025-07-20 11:31:25,562 - INFO - Début de la mise à jour du modèle...
+2025-07-20 11:31:25,613 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 11:31:25,616 - WARNING - 19 dates invalides trouvées
+2025-07-20 11:31:25,616 - WARNING - Aucune donnée valide après traitement
+2025-07-20 11:36:25,618 - INFO - Début de la mise à jour du modèle...
+2025-07-20 11:36:25,674 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 11:36:25,675 - WARNING - 19 dates invalides trouvées
+2025-07-20 11:36:25,676 - WARNING - Aucune donnée valide après traitement
+2025-07-20 11:41:25,677 - INFO - Début de la mise à jour du modèle...
+2025-07-20 11:41:25,737 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 11:41:25,739 - WARNING - 19 dates invalides trouvées
+2025-07-20 11:41:25,740 - WARNING - Aucune donnée valide après traitement
+2025-07-20 11:46:25,741 - INFO - Début de la mise à jour du modèle...
+2025-07-20 11:46:25,781 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 11:46:25,785 - WARNING - 19 dates invalides trouvées
+2025-07-20 11:46:25,786 - WARNING - Aucune donnée valide après traitement
+2025-07-20 11:51:25,787 - INFO - Début de la mise à jour du modèle...
+2025-07-20 11:51:25,841 - INFO - Reçu 19 nouvelles interventions
+2025-07-20 11:51:25,843 - WARNING - 19 dates invalides trouvées
+2025-07-20 11:51:25,844 - WARNING - Aucune donnée valide après traitement
+2025-07-26 16:22:32,481 - INFO - Modèle et features chargés avec succès
+2025-07-26 16:22:32,483 - INFO - Début de la mise à jour du modèle...
+2025-07-26 16:22:32,483 - INFO - Thread de mise à jour démarré
+2025-07-26 16:22:32,483 - INFO - Démarrage de l'API Flask...
+2025-07-26 16:22:32,504 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.229:5000
+2025-07-26 16:22:32,507 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-26 16:22:32,636 - INFO - Reçu 25 nouvelles interventions
+2025-07-26 16:22:32,651 - WARNING - 25 dates invalides trouvées
+2025-07-26 16:22:32,660 - WARNING - Aucune donnée valide après traitement
+2025-07-26 16:27:32,661 - INFO - Début de la mise à jour du modèle...
+2025-07-26 16:27:32,721 - INFO - Reçu 25 nouvelles interventions
+2025-07-26 16:27:32,721 - WARNING - 25 dates invalides trouvées
+2025-07-26 16:27:32,721 - WARNING - Aucune donnée valide après traitement
+2025-07-26 16:32:32,730 - INFO - Début de la mise à jour du modèle...
+2025-07-26 16:32:32,778 - INFO - Reçu 25 nouvelles interventions
+2025-07-26 16:32:32,780 - WARNING - 25 dates invalides trouvées
+2025-07-26 16:32:32,781 - WARNING - Aucune donnée valide après traitement
+2025-07-26 16:37:32,782 - INFO - Début de la mise à jour du modèle...
+2025-07-26 16:37:32,834 - INFO - Reçu 25 nouvelles interventions
+2025-07-26 16:37:32,835 - WARNING - 25 dates invalides trouvées
+2025-07-26 16:37:32,836 - WARNING - Aucune donnée valide après traitement
+2025-07-26 16:42:32,837 - INFO - Début de la mise à jour du modèle...
+2025-07-26 16:42:32,891 - INFO - Reçu 25 nouvelles interventions
+2025-07-26 16:42:32,893 - WARNING - 25 dates invalides trouvées
+2025-07-26 16:42:32,893 - WARNING - Aucune donnée valide après traitement
+2025-07-30 23:05:45,945 - INFO - Modèle et features chargés avec succès
+2025-07-30 23:05:45,947 - INFO - Début de la mise à jour du modèle...
+2025-07-30 23:05:45,947 - INFO - Thread de mise à jour démarré
+2025-07-30 23:05:45,947 - INFO - Démarrage de l'API Flask...
+2025-07-30 23:05:45,978 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+2025-07-30 23:05:45,978 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 23:05:46,183 - INFO - Reçu 25 nouvelles interventions
+2025-07-30 23:05:46,187 - WARNING - 25 dates invalides trouvées
+2025-07-30 23:05:46,197 - WARNING - Aucune donnée valide après traitement
+2025-07-30 23:10:46,199 - INFO - Début de la mise à jour du modèle...
+2025-07-30 23:10:46,247 - INFO - Reçu 25 nouvelles interventions
+2025-07-30 23:10:46,247 - WARNING - 25 dates invalides trouvées
+2025-07-30 23:10:46,247 - WARNING - Aucune donnée valide après traitement
+2025-07-30 23:15:46,257 - INFO - Début de la mise à jour du modèle...
+2025-07-30 23:15:46,315 - INFO - Reçu 25 nouvelles interventions
+2025-07-30 23:15:46,331 - WARNING - 25 dates invalides trouvées
+2025-07-30 23:15:46,331 - WARNING - Aucune donnée valide après traitement
+2025-07-30 23:20:46,332 - INFO - Début de la mise à jour du modèle...
+2025-07-30 23:20:46,382 - INFO - Reçu 25 nouvelles interventions
+2025-07-30 23:20:46,385 - WARNING - 25 dates invalides trouvées
+2025-07-30 23:20:46,385 - WARNING - Aucune donnée valide après traitement
+2025-08-04 11:40:48,980 - INFO - Modèle et features chargés avec succès
+2025-08-04 11:40:48,980 - INFO - Début de la mise à jour du modèle...
+2025-08-04 11:40:48,980 - INFO - Thread de mise à jour démarré
+2025-08-04 11:40:48,980 - INFO - Démarrage de l'API Flask...
+2025-08-04 11:40:49,012 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.169:5000
+2025-08-04 11:40:49,012 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-04 11:40:49,224 - INFO - Reçu 25 nouvelles interventions
+2025-08-04 11:40:49,224 - WARNING - 25 dates invalides trouvées
+2025-08-04 11:40:49,233 - WARNING - Aucune donnée valide après traitement
+2025-08-04 11:44:18,054 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-31T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.0}
+2025-08-04 11:44:18,073 - INFO - Résultat de la prédiction: {'techniciens': [2, 9], 'probabilites': [0.7631085515022278, 0.16079698503017426], 'status': 'success'}
+2025-08-04 11:44:18,076 - INFO - 127.0.0.1 - - [04/Aug/2025 11:44:18] "POST /predict HTTP/1.1" 200 -
+2025-08-04 11:45:49,235 - INFO - Début de la mise à jour du modèle...
+2025-08-04 11:45:49,290 - INFO - Reçu 25 nouvelles interventions
+2025-08-04 11:45:49,290 - WARNING - 25 dates invalides trouvées
+2025-08-04 11:45:49,290 - WARNING - Aucune donnée valide après traitement
+2025-08-04 11:49:33,197 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-31T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.0}
+2025-08-04 11:49:33,210 - INFO - Résultat de la prédiction: {'techniciens': [2, 9], 'probabilites': [0.7631085515022278, 0.16079698503017426], 'status': 'success'}
+2025-08-04 11:49:33,211 - INFO - 127.0.0.1 - - [04/Aug/2025 11:49:33] "POST /predict HTTP/1.1" 200 -
+2025-08-04 11:50:49,302 - INFO - Début de la mise à jour du modèle...
+2025-08-04 11:50:49,375 - INFO - Reçu 25 nouvelles interventions
+2025-08-04 11:50:49,375 - WARNING - 25 dates invalides trouvées
+2025-08-04 11:50:49,375 - WARNING - Aucune donnée valide après traitement
+2025-08-04 11:55:49,383 - INFO - Début de la mise à jour du modèle...
+2025-08-04 11:55:49,446 - INFO - Reçu 25 nouvelles interventions
+2025-08-04 11:55:49,448 - WARNING - 25 dates invalides trouvées
+2025-08-04 11:55:49,450 - WARNING - Aucune donnée valide après traitement
+2025-08-04 12:00:49,451 - INFO - Début de la mise à jour du modèle...
+2025-08-04 12:00:49,537 - INFO - Reçu 25 nouvelles interventions
+2025-08-04 12:00:49,539 - WARNING - 25 dates invalides trouvées
+2025-08-04 12:00:49,540 - WARNING - Aucune donnée valide après traitement
+2025-08-04 12:05:49,541 - INFO - Début de la mise à jour du modèle...
+2025-08-04 12:05:49,606 - INFO - Reçu 25 nouvelles interventions
+2025-08-04 12:05:49,608 - WARNING - 25 dates invalides trouvées
+2025-08-04 12:05:49,609 - WARNING - Aucune donnée valide après traitement
+2025-08-04 12:08:54,824 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-31T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3}
+2025-08-04 12:08:54,836 - INFO - Résultat de la prédiction: {'techniciens': [2, 9], 'probabilites': [0.7631085515022278, 0.16079698503017426], 'status': 'success'}
+2025-08-04 12:08:54,837 - INFO - 127.0.0.1 - - [04/Aug/2025 12:08:54] "POST /predict HTTP/1.1" 200 -
+2025-08-04 12:10:49,610 - INFO - Début de la mise à jour du modèle...
+2025-08-04 12:10:49,715 - INFO - Reçu 25 nouvelles interventions
+2025-08-04 12:10:49,717 - WARNING - 25 dates invalides trouvées
+2025-08-04 12:10:49,718 - WARNING - Aucune donnée valide après traitement
+2025-08-04 12:15:49,719 - INFO - Début de la mise à jour du modèle...
+2025-08-04 12:15:49,808 - INFO - Reçu 25 nouvelles interventions
+2025-08-04 12:15:49,811 - WARNING - 25 dates invalides trouvées
+2025-08-04 12:15:49,812 - WARNING - Aucune donnée valide après traitement
+2025-08-04 12:15:51,901 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-31T12:15:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.0}
+2025-08-04 12:15:51,914 - INFO - Résultat de la prédiction: {'techniciens': [2, 9], 'probabilites': [0.8103846907615662, 0.12715104222297668], 'status': 'success'}
+2025-08-04 12:15:51,915 - INFO - 127.0.0.1 - - [04/Aug/2025 12:15:51] "POST /predict HTTP/1.1" 200 -
+2025-08-04 12:15:54,832 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-31T12:15:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.0}
+2025-08-04 12:15:54,843 - INFO - Résultat de la prédiction: {'techniciens': [2, 9], 'probabilites': [0.8103846907615662, 0.12715104222297668], 'status': 'success'}
+2025-08-04 12:15:54,843 - INFO - 127.0.0.1 - - [04/Aug/2025 12:15:54] "POST /predict HTTP/1.1" 200 -
+2025-08-04 12:16:21,222 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-31T12:16:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.0}
+2025-08-04 12:16:21,232 - INFO - Résultat de la prédiction: {'techniciens': [2, 9], 'probabilites': [0.8103846907615662, 0.12715104222297668], 'status': 'success'}
+2025-08-04 12:16:21,232 - INFO - 127.0.0.1 - - [04/Aug/2025 12:16:21] "POST /predict HTTP/1.1" 200 -
+2025-08-04 12:16:54,001 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-31T12:16:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.0}
+2025-08-04 12:16:54,010 - INFO - Résultat de la prédiction: {'techniciens': [2, 9], 'probabilites': [0.8103846907615662, 0.12715104222297668], 'status': 'success'}
+2025-08-04 12:16:54,011 - INFO - 127.0.0.1 - - [04/Aug/2025 12:16:54] "POST /predict HTTP/1.1" 200 -
+2025-08-04 12:20:49,813 - INFO - Début de la mise à jour du modèle...
+2025-08-04 12:20:49,878 - INFO - Reçu 25 nouvelles interventions
+2025-08-04 12:20:49,879 - WARNING - 25 dates invalides trouvées
+2025-08-04 12:20:49,880 - WARNING - Aucune donnée valide après traitement
+2025-08-04 12:38:43,957 - INFO - Modèle et features chargés avec succès
+2025-08-04 12:38:43,959 - INFO - Début de la mise à jour du modèle...
+2025-08-04 12:38:43,959 - INFO - Thread de mise à jour démarré
+2025-08-04 12:38:43,959 - INFO - Démarrage de l'API Flask...
+2025-08-04 12:38:43,970 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.169:5001
+2025-08-04 12:38:43,970 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-04 12:38:44,073 - INFO - Reçu 25 nouvelles interventions
+2025-08-04 12:38:44,073 - WARNING - 25 dates invalides trouvées
+2025-08-04 12:38:44,081 - WARNING - Aucune donnée valide après traitement
+2025-08-04 12:39:01,100 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-31T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3}
+2025-08-04 12:39:01,111 - INFO - Résultat de la prédiction: {'techniciens': [2, 9], 'probabilites': [0.7631085515022278, 0.16079698503017426], 'status': 'success'}
+2025-08-04 12:39:01,112 - INFO - 127.0.0.1 - - [04/Aug/2025 12:39:01] "POST /predict HTTP/1.1" 200 -
+2025-08-04 12:39:21,421 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-31T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3}
+2025-08-04 12:39:21,438 - INFO - Résultat de la prédiction: {'techniciens': [2, 9], 'probabilites': [0.7631085515022278, 0.16079698503017426], 'status': 'success'}
+2025-08-04 12:39:21,439 - INFO - 127.0.0.1 - - [04/Aug/2025 12:39:21] "POST /predict HTTP/1.1" 200 -
+2025-08-04 12:41:51,045 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-31T12:41:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.0}
+2025-08-04 12:41:51,045 - INFO - Résultat de la prédiction: {'techniciens': [2, 9], 'probabilites': [0.8103846907615662, 0.12715104222297668], 'status': 'success'}
+2025-08-04 12:41:51,045 - INFO - 127.0.0.1 - - [04/Aug/2025 12:41:51] "POST /predict HTTP/1.1" 200 -
+2025-08-04 12:43:44,082 - INFO - Début de la mise à jour du modèle...
+2025-08-04 12:43:44,174 - INFO - Reçu 25 nouvelles interventions
+2025-08-04 12:43:44,176 - WARNING - 25 dates invalides trouvées
+2025-08-04 12:43:44,176 - WARNING - Aucune donnée valide après traitement
+2025-08-04 12:48:44,178 - INFO - Début de la mise à jour du modèle...
+2025-08-04 12:48:44,239 - INFO - Reçu 25 nouvelles interventions
+2025-08-04 12:48:44,239 - WARNING - 25 dates invalides trouvées
+2025-08-04 12:48:44,239 - WARNING - Aucune donnée valide après traitement
+2025-08-04 12:49:16,851 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-31T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.0}
+2025-08-04 12:49:16,862 - INFO - Résultat de la prédiction: {'techniciens': [2, 9], 'probabilites': [0.7631085515022278, 0.16079698503017426], 'status': 'success'}
+2025-08-04 12:49:16,863 - INFO - 127.0.0.1 - - [04/Aug/2025 12:49:16] "POST /predict HTTP/1.1" 200 -
+2025-08-04 12:51:59,382 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-31T12:41:00', 'specialite': 'ENVIRONNEMENT', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.0}
+2025-08-04 12:51:59,393 - INFO - Résultat de la prédiction: {'techniciens': [2, 9], 'probabilites': [0.9175965189933777, 0.011675297282636166], 'status': 'success'}
+2025-08-04 12:51:59,393 - INFO - 127.0.0.1 - - [04/Aug/2025 12:51:59] "POST /predict HTTP/1.1" 200 -
+2025-08-04 12:53:44,242 - INFO - Début de la mise à jour du modèle...
+2025-08-04 12:53:44,283 - INFO - Reçu 25 nouvelles interventions
+2025-08-04 12:53:44,285 - WARNING - 25 dates invalides trouvées
+2025-08-04 12:53:44,286 - WARNING - Aucune donnée valide après traitement
+2025-08-04 12:53:47,821 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-07-31T14:30:00', 'specialite': 'ENVIRONNEMENT', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.0}
+2025-08-04 12:53:47,830 - INFO - Résultat de la prédiction: {'techniciens': [2, 9], 'probabilites': [0.895412266254425, 0.015300380997359753], 'status': 'success'}
+2025-08-04 12:53:47,831 - INFO - 127.0.0.1 - - [04/Aug/2025 12:53:47] "POST /predict HTTP/1.1" 200 -
+2025-08-04 12:54:45,980 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-08-20T14:30:00', 'specialite': 'ENVIRONNEMENT', 'typeIntervention': ' BASSE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.0}
+2025-08-04 12:54:45,990 - INFO - Résultat de la prédiction: {'techniciens': [9, 6], 'probabilites': [0.14209569990634918, 0.12434858828783035], 'status': 'success'}
+2025-08-04 12:54:45,991 - INFO - 127.0.0.1 - - [04/Aug/2025 12:54:45] "POST /predict HTTP/1.1" 200 -
+2025-08-04 12:55:40,537 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-08-20T14:30:00', 'specialite': 'ENVIRONNEMENT', 'typeIntervention': 'CORRECTIVE', 'priorite': 'BASSE', 'dureeEstimee': 3.0}
+2025-08-04 12:55:40,547 - INFO - Résultat de la prédiction: {'techniciens': [2, 1], 'probabilites': [0.8842215538024902, 0.018856942653656006], 'status': 'success'}
+2025-08-04 12:55:40,548 - INFO - 127.0.0.1 - - [04/Aug/2025 12:55:40] "POST /predict HTTP/1.1" 200 -
+2025-08-04 12:56:40,798 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-08-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'BASSE', 'dureeEstimee': 3.0}
+2025-08-04 12:56:40,809 - INFO - Résultat de la prédiction: {'techniciens': [2, 9], 'probabilites': [0.7549654245376587, 0.1590811312198639], 'status': 'success'}
+2025-08-04 12:56:40,810 - INFO - 127.0.0.1 - - [04/Aug/2025 12:56:40] "POST /predict HTTP/1.1" 200 -
+2025-08-04 12:57:13,044 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-08-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'ELEVEE', 'dureeEstimee': 3.0}
+2025-08-04 12:57:13,055 - INFO - Résultat de la prédiction: {'techniciens': [2, 9], 'probabilites': [0.7631085515022278, 0.16079698503017426], 'status': 'success'}
+2025-08-04 12:57:13,055 - INFO - 127.0.0.1 - - [04/Aug/2025 12:57:13] "POST /predict HTTP/1.1" 200 -
+2025-08-04 12:57:38,308 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-08-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'MOYENNE', 'dureeEstimee': 3.0}
+2025-08-04 12:57:38,319 - INFO - Résultat de la prédiction: {'techniciens': [2, 9], 'probabilites': [0.7632764577865601, 0.16083237528800964], 'status': 'success'}
+2025-08-04 12:57:38,320 - INFO - 127.0.0.1 - - [04/Aug/2025 12:57:38] "POST /predict HTTP/1.1" 200 -
+2025-08-04 13:35:38,117 - INFO - Modèle et features chargés avec succès
+2025-08-04 13:35:38,118 - INFO - Début de la mise à jour du modèle...
+2025-08-04 13:35:38,119 - INFO - Thread de mise à jour démarré
+2025-08-04 13:35:38,119 - INFO - Démarrage de l'API Flask...
+2025-08-04 13:35:38,137 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.169:5001
+2025-08-04 13:35:38,137 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-04 13:35:42,164 - ERROR - Erreur de connexion: HTTPConnectionPool(host='localhost', port=8087): Max retries exceeded with url: /prediction/donnees (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A66734DDC0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-08-04 13:37:08,740 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-08-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'MOYENNE', 'dureeEstimee': 3}
+2025-08-04 13:37:08,751 - ERROR - Erreur de validation: feature_names mismatch: ['dureeEnHeures_norm', 'heureDeLaJournee_norm', 'specialite_CLIMATISATION', 'specialite_ELECTRICITE', 'specialite_ENVIRONNEMENT', 'typeIntervention_CORRECTIVE', 'typeIntervention_PREVENTIVE', 'priorite_BASSE', 'priorite_ELEVEE', 'priorite_MOYENNE', 'periodeJournee_APRES_MIDI', 'periodeJournee_MATIN', 'periodeJournee_NUIT', 'periodeJournee_SOIREE', 'specialite_priorite_CLIMATISATION_BASSE', 'specialite_priorite_CLIMATISATION_ELEVEE', 'specialite_priorite_CLIMATISATION_MOYENNE', 'specialite_priorite_ELECTRICITE_ELEVEE', 'specialite_priorite_ENVIRONNEMENT_MOYENNE', 'type_periode_CORRECTIVE_APRES_MIDI', 'type_periode_CORRECTIVE_MATIN', 'type_periode_CORRECTIVE_NUIT', 'type_periode_PREVENTIVE_APRES_MIDI', 'type_periode_PREVENTIVE_NUIT', 'type_periode_PREVENTIVE_SOIREE'] ['dureeEnHeures_norm', 'heureDeLaJournee_norm', 'specialite_CLIMATISATION', 'specialite_ELECTRICITE', 'specialite_ENVIRONNEMENT', 'typeIntervention_CORRECTIVE', 'typeIntervention_PREVENTIVE', 'priorite_BASSE', 'priorite_ELEVEE', 'priorite_MOYENNE', 'periodeJournee_APRES_MIDI', 'periodeJournee_MATIN', 'periodeJournee_NUIT', 'periodeJournee_SOIREE', 'specialite_priorite_CLIMATISATION_BASSE', 'specialite_priorite_CLIMATISATION_ELEVEE', 'specialite_priorite_CLIMATISATION_MOYENNE', 'specialite_priorite_ELECTRICITE_BASSE', 'specialite_priorite_ELECTRICITE_ELEVEE', 'specialite_priorite_ELECTRICITE_MOYENNE', 'specialite_priorite_ENVIRONNEMENT_BASSE', 'specialite_priorite_ENVIRONNEMENT_ELEVEE', 'specialite_priorite_ENVIRONNEMENT_MOYENNE', 'type_periode_CORRECTIVE_APRES_MIDI', 'type_periode_CORRECTIVE_MATIN', 'type_periode_CORRECTIVE_NUIT', 'type_periode_CORRECTIVE_SOIREE', 'type_periode_PREVENTIVE_APRES_MIDI', 'type_periode_PREVENTIVE_MATIN', 'type_periode_PREVENTIVE_NUIT', 'type_periode_PREVENTIVE_SOIREE']
+training data did not have the following fields: specialite_priorite_ENVIRONNEMENT_ELEVEE, specialite_priorite_ELECTRICITE_MOYENNE, type_periode_PREVENTIVE_MATIN, specialite_priorite_ELECTRICITE_BASSE, specialite_priorite_ENVIRONNEMENT_BASSE, type_periode_CORRECTIVE_SOIREE
+2025-08-04 13:37:08,752 - INFO - 127.0.0.1 - - [04/Aug/2025 13:37:08] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-08-04 13:39:00,158 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-08-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'MOYENNE', 'dureeEstimee': 3.0}
+2025-08-04 13:39:00,171 - ERROR - Erreur de validation: feature_names mismatch: ['dureeEnHeures_norm', 'heureDeLaJournee_norm', 'specialite_CLIMATISATION', 'specialite_ELECTRICITE', 'specialite_ENVIRONNEMENT', 'typeIntervention_CORRECTIVE', 'typeIntervention_PREVENTIVE', 'priorite_BASSE', 'priorite_ELEVEE', 'priorite_MOYENNE', 'periodeJournee_APRES_MIDI', 'periodeJournee_MATIN', 'periodeJournee_NUIT', 'periodeJournee_SOIREE', 'specialite_priorite_CLIMATISATION_BASSE', 'specialite_priorite_CLIMATISATION_ELEVEE', 'specialite_priorite_CLIMATISATION_MOYENNE', 'specialite_priorite_ELECTRICITE_ELEVEE', 'specialite_priorite_ENVIRONNEMENT_MOYENNE', 'type_periode_CORRECTIVE_APRES_MIDI', 'type_periode_CORRECTIVE_MATIN', 'type_periode_CORRECTIVE_NUIT', 'type_periode_PREVENTIVE_APRES_MIDI', 'type_periode_PREVENTIVE_NUIT', 'type_periode_PREVENTIVE_SOIREE'] ['dureeEnHeures_norm', 'heureDeLaJournee_norm', 'specialite_CLIMATISATION', 'specialite_ELECTRICITE', 'specialite_ENVIRONNEMENT', 'typeIntervention_CORRECTIVE', 'typeIntervention_PREVENTIVE', 'priorite_BASSE', 'priorite_ELEVEE', 'priorite_MOYENNE', 'periodeJournee_APRES_MIDI', 'periodeJournee_MATIN', 'periodeJournee_NUIT', 'periodeJournee_SOIREE', 'specialite_priorite_CLIMATISATION_BASSE', 'specialite_priorite_CLIMATISATION_ELEVEE', 'specialite_priorite_CLIMATISATION_MOYENNE', 'specialite_priorite_ELECTRICITE_BASSE', 'specialite_priorite_ELECTRICITE_ELEVEE', 'specialite_priorite_ELECTRICITE_MOYENNE', 'specialite_priorite_ENVIRONNEMENT_BASSE', 'specialite_priorite_ENVIRONNEMENT_ELEVEE', 'specialite_priorite_ENVIRONNEMENT_MOYENNE', 'type_periode_CORRECTIVE_APRES_MIDI', 'type_periode_CORRECTIVE_MATIN', 'type_periode_CORRECTIVE_NUIT', 'type_periode_CORRECTIVE_SOIREE', 'type_periode_PREVENTIVE_APRES_MIDI', 'type_periode_PREVENTIVE_MATIN', 'type_periode_PREVENTIVE_NUIT', 'type_periode_PREVENTIVE_SOIREE']
+training data did not have the following fields: specialite_priorite_ENVIRONNEMENT_ELEVEE, specialite_priorite_ELECTRICITE_MOYENNE, type_periode_PREVENTIVE_MATIN, specialite_priorite_ELECTRICITE_BASSE, specialite_priorite_ENVIRONNEMENT_BASSE, type_periode_CORRECTIVE_SOIREE
+2025-08-04 13:39:00,172 - INFO - 127.0.0.1 - - [04/Aug/2025 13:39:00] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-08-04 13:40:42,165 - INFO - Début de la mise à jour du modèle...
+2025-08-04 13:40:42,269 - INFO - Reçu 25 nouvelles interventions
+2025-08-04 13:40:42,272 - WARNING - 25 dates invalides trouvées
+2025-08-04 13:40:42,273 - WARNING - Aucune donnée valide après traitement
+2025-08-04 13:41:50,638 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-08-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'MOYENNE', 'dureeEstimee': 3}
+2025-08-04 13:41:50,648 - ERROR - Erreur de validation: feature_names mismatch: ['dureeEnHeures_norm', 'heureDeLaJournee_norm', 'specialite_CLIMATISATION', 'specialite_ELECTRICITE', 'specialite_ENVIRONNEMENT', 'typeIntervention_CORRECTIVE', 'typeIntervention_PREVENTIVE', 'priorite_BASSE', 'priorite_ELEVEE', 'priorite_MOYENNE', 'periodeJournee_APRES_MIDI', 'periodeJournee_MATIN', 'periodeJournee_NUIT', 'periodeJournee_SOIREE', 'specialite_priorite_CLIMATISATION_BASSE', 'specialite_priorite_CLIMATISATION_ELEVEE', 'specialite_priorite_CLIMATISATION_MOYENNE', 'specialite_priorite_ELECTRICITE_ELEVEE', 'specialite_priorite_ENVIRONNEMENT_MOYENNE', 'type_periode_CORRECTIVE_APRES_MIDI', 'type_periode_CORRECTIVE_MATIN', 'type_periode_CORRECTIVE_NUIT', 'type_periode_PREVENTIVE_APRES_MIDI', 'type_periode_PREVENTIVE_NUIT', 'type_periode_PREVENTIVE_SOIREE'] ['dureeEnHeures_norm', 'heureDeLaJournee_norm', 'specialite_CLIMATISATION', 'specialite_ELECTRICITE', 'specialite_ENVIRONNEMENT', 'typeIntervention_CORRECTIVE', 'typeIntervention_PREVENTIVE', 'priorite_BASSE', 'priorite_ELEVEE', 'priorite_MOYENNE', 'periodeJournee_APRES_MIDI', 'periodeJournee_MATIN', 'periodeJournee_NUIT', 'periodeJournee_SOIREE', 'specialite_priorite_CLIMATISATION_BASSE', 'specialite_priorite_CLIMATISATION_ELEVEE', 'specialite_priorite_CLIMATISATION_MOYENNE', 'specialite_priorite_ELECTRICITE_BASSE', 'specialite_priorite_ELECTRICITE_ELEVEE', 'specialite_priorite_ELECTRICITE_MOYENNE', 'specialite_priorite_ENVIRONNEMENT_BASSE', 'specialite_priorite_ENVIRONNEMENT_ELEVEE', 'specialite_priorite_ENVIRONNEMENT_MOYENNE', 'type_periode_CORRECTIVE_APRES_MIDI', 'type_periode_CORRECTIVE_MATIN', 'type_periode_CORRECTIVE_NUIT', 'type_periode_CORRECTIVE_SOIREE', 'type_periode_PREVENTIVE_APRES_MIDI', 'type_periode_PREVENTIVE_MATIN', 'type_periode_PREVENTIVE_NUIT', 'type_periode_PREVENTIVE_SOIREE']
+training data did not have the following fields: specialite_priorite_ENVIRONNEMENT_ELEVEE, specialite_priorite_ELECTRICITE_MOYENNE, type_periode_PREVENTIVE_MATIN, specialite_priorite_ELECTRICITE_BASSE, specialite_priorite_ENVIRONNEMENT_BASSE, type_periode_CORRECTIVE_SOIREE
+2025-08-04 13:41:50,649 - INFO - 127.0.0.1 - - [04/Aug/2025 13:41:50] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-08-04 14:03:04,815 - INFO - Modèle et features chargés avec succès
+2025-08-04 14:03:04,816 - INFO - Début de la mise à jour du modèle...
+2025-08-04 14:03:04,817 - INFO - Thread de mise à jour démarré
+2025-08-04 14:03:04,817 - INFO - Démarrage de l'API Flask...
+2025-08-04 14:03:04,824 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.169:5001
+2025-08-04 14:03:04,824 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-04 14:03:08,911 - ERROR - Erreur de connexion: HTTPConnectionPool(host='localhost', port=8087): Max retries exceeded with url: /prediction/donnees (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A2B3A25FD0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-08-04 14:03:19,714 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-08-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'CORRECTIVE', 'priorite': 'MOYENNE', 'dureeEstimee': 3}
+2025-08-04 14:03:19,728 - INFO - Résultat de la prédiction: {'techniciens': [4, 8], 'probabilites': [0.7354790577559295, 0.20387307491002138], 'status': 'success'}
+2025-08-04 14:03:19,729 - INFO - 127.0.0.1 - - [04/Aug/2025 14:03:19] "POST /predict HTTP/1.1" 200 -
+2025-08-04 14:04:20,394 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-08-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'PREVENTIVE', 'priorite': 'BASSE', 'dureeEstimee': 3}
+2025-08-04 14:04:20,409 - INFO - Résultat de la prédiction: {'techniciens': [10, 8], 'probabilites': [0.20043267315199362, 0.13686838172968496], 'status': 'success'}
+2025-08-04 14:04:20,410 - INFO - 127.0.0.1 - - [04/Aug/2025 14:04:20] "POST /predict HTTP/1.1" 200 -
+2025-08-04 14:07:39,780 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-08-20T14:07:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'PREVENTIVE', 'priorite': 'BASSE', 'dureeEstimee': 3.0}
+2025-08-04 14:07:39,794 - INFO - Résultat de la prédiction: {'techniciens': [10, 8], 'probabilites': [0.20043267315199362, 0.13686838172968496], 'status': 'success'}
+2025-08-04 14:07:39,794 - INFO - 127.0.0.1 - - [04/Aug/2025 14:07:39] "POST /predict HTTP/1.1" 200 -
+2025-08-04 14:08:08,913 - INFO - Début de la mise à jour du modèle...
+2025-08-04 14:08:09,028 - INFO - Reçu 25 nouvelles interventions
+2025-08-04 14:08:09,031 - WARNING - 25 dates invalides trouvées
+2025-08-04 14:08:09,032 - ERROR - Erreur inattendue: not enough values to unpack (expected 2, got 0)
+2025-08-04 14:08:09,033 - ERROR - Traceback (most recent call last):
+  File "C:\Users\mchai\OneDrive - ESPRIT\Bureau\Intervention\api_flask\api_prediction.py", line 140, in update_model
+    X, y = process_new_data(df)
+    ^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+
+2025-08-04 14:12:56,516 - INFO - Modèle et features chargés avec succès
+2025-08-04 14:12:56,517 - INFO - Début de la mise à jour du modèle...
+2025-08-04 14:12:56,517 - INFO - Thread de mise à jour démarré
+2025-08-04 14:12:56,517 - INFO - Démarrage de l'API Flask...
+2025-08-04 14:12:56,528 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.169:5001
+2025-08-04 14:12:56,528 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-04 14:12:56,577 - INFO - Reçu 25 nouvelles interventions
+2025-08-04 14:12:56,580 - WARNING - 25 dates invalides trouvées
+2025-08-04 14:12:56,581 - ERROR - Erreur inattendue: not enough values to unpack (expected 2, got 0)
+2025-08-04 14:12:56,582 - ERROR - Traceback (most recent call last):
+  File "C:\Users\mchai\OneDrive - ESPRIT\Bureau\Intervention\api_flask\api_prediction.py", line 140, in update_model
+    X, y = process_new_data(df)
+    ^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+
+2025-08-04 14:14:07,572 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-08-20T14:07:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'PREVENTIVE', 'priorite': 'MOYENNE', 'dureeEstimee': 3.0}
+2025-08-04 14:14:07,589 - INFO - Résultat de la prédiction: {'techniciens': [23, 4], 'probabilites': [0.33047154294469056, 0.2037256121045635], 'status': 'success'}
+2025-08-04 14:14:07,591 - INFO - 127.0.0.1 - - [04/Aug/2025 14:14:07] "POST /predict HTTP/1.1" 200 -
+2025-08-04 14:14:24,489 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-08-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'MOYENNE', 'priorite': 'BASSE', 'dureeEstimee': 3}
+2025-08-04 14:14:24,501 - INFO - Résultat de la prédiction: {'techniciens': [4, 21], 'probabilites': [0.215704114724807, 0.11950194761444469], 'status': 'success'}
+2025-08-04 14:14:24,502 - INFO - 127.0.0.1 - - [04/Aug/2025 14:14:24] "POST /predict HTTP/1.1" 200 -
+2025-08-04 14:16:07,281 - INFO - Requête de prédiction reçue: {'dateDebut': '2025-08-20T14:30:00', 'specialite': 'ELECTRICITE', 'typeIntervention': 'PREVENTIVE', 'priorite': 'MOYENNE', 'dureeEstimee': 3}
+2025-08-04 14:16:07,294 - INFO - Résultat de la prédiction: {'techniciens': [23, 4], 'probabilites': [0.33047154294469056, 0.2037256121045635], 'status': 'success'}
+2025-08-04 14:16:07,295 - INFO - 127.0.0.1 - - [04/Aug/2025 14:16:07] "POST /predict HTTP/1.1" 200 -
