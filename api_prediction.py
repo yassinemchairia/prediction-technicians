@@ -23,10 +23,10 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 
 # Configuration
-MODEL_PATH = "C:/Users/mchai/OneDrive - ESPRIT/Bureau/Intervention/technicien_model.pkl"
-FEATURES_PATH = "C:/Users/mchai/OneDrive - ESPRIT/Bureau/Intervention/model_features.txt"
-SPRING_API_URL = "http://localhost:8087/prediction/donnees"
-UPDATE_INTERVAL = 300  # 5 minutes entre les mises à jour
+MODEL_PATH = "./technicien_model.pkl"
+FEATURES_PATH = "./model_features.txt"
+SPRING_API_URL = "http://springboot:8087/prediction/donnees"
+UPDATE_INTERVAL = 300  # 5 minutes
 
 # Chargement initial
 try:
@@ -244,4 +244,5 @@ if __name__ == '__main__':
     
     except Exception as e:
         logger.critical(f"Erreur critique au démarrage: {str(e)}")
+
         logger.critical(traceback.format_exc())
